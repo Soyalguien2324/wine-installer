@@ -26,4 +26,4 @@ echo "Parte 4/5 - Hecha!"
 winecfg
 echo "5/5 hecho!"
 echo "Ya tienes wine o windows"
-wine "$HOME/SteamSetup.exe"
+wine "/home/$USER/wine-installer/SteamSetup.exe"
