@@ -7,8 +7,8 @@ cd wine-installer
 chmod a+x main.sh
 clear
 ./main.sh
-```
+ ```
 Cuando os salga esta pantalla, pulsais donde os pone windows el que sea y poneis el Windows 10
 ![](https://wiki.winehq.org/images/c/c8/Staging-winecfg.png)
 
-Le dais a Apply. Y a Add Aplication y buscais el steam. Le dais a Apply y a ok. Espearis y se os debería de abrir steam.
+Le dais a Apply. Y a Add Aplication y buscais el steam. Le dais a Apply y a ok. Esperais y se os debería de abrir steam.
