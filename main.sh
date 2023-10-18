@@ -5,7 +5,7 @@ cd
 rm "winehq.key"
 sudo apt update -y &>/dev/null
 sudo apt upgrade -y &>/dev/null
-sudo apt remove -y *wine wine &>/dev/null
+sudo apt remove -y *wine wine32 wine wine64 &>/dev/null
 sudo apt remove -y wine* &>/dev/null
 sudo apt remove -y *wine* &>/dev/null
 wget -nc https://dl.winehq.org/wine-builds/winehq.key &>/dev/null
@@ -17,7 +17,7 @@ echo "Parte 2/5 - Hecha!"
 bash -c 'echo "deb https://dl.winehq.org/wine-builds/debian/ bullseye main" | sudo tee /etc/apt/sources.list.d/wine_chrome_os_made_simple.list' &>/dev/null
 sudo dpkg --add-architecture i386
 sudo apt update -y &>/dev/null
-sudo apt install -y wine32 &>/dev/null
+sudo apt install -y wine32 wine64 &>/dev/null
 echo "Parte 3/5 - Hecha!"
 echo "Espera por favor..."
 sudo apt update -y &>/dev/null
