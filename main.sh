@@ -23,9 +23,10 @@ echo "Espera por favor..."
 sudo apt update -y &>/dev/null
 sudo apt upgrade -y &>/dev/null
 echo "Parte 4/5 - Hecha!"
-cd ..
 rm -fr .wine
 winecfg
 echo "5/5 hecho!"
 echo "Ya tienes wine o windows"
 winecfg
+mv wine-installer/SteamSetup.exe .
+wine /home/$(whoami)/SteamSetup.exe
